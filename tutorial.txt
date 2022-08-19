@@ -1,0 +1,13 @@
+1: npm init
+
+2: criar um função em um arquivo
+
+3: instalar pacote: npm install --save-dev mocha
+
+4:instalar pacote: npm install --save-dev chai
+
+5: criar arquivo juros.test.js dentro da pasta test e juros.js na pasta src
+
+6:em juros.test.js importar juros.js e chamar o test()
+
+7:
