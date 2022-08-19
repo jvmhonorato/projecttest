@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage":"find ./ -name '*.test.js' | xargs ./node_modules/.bin/istanbul cover _mocha -- --reporter spec"
   },
   "author": "jvmh",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.6",
+    "istanbul": "^0.4.5",
     "mocha": "^10.0.0",
     "sinon": "^14.0.0"
   },

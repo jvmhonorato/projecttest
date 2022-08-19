@@ -17,3 +17,7 @@
 9: instalar o sinon pois ele simula objetos fake : npm install ---save-dev sinon
 
 10: add ao test sinon.stub pois ele é muito importante pois só atrves dele conseguimos testar unitariante o codigo sem de fato rodar ele
+
+11: instalar instanbul ferramenta que rasreia todos os tesate feitos na aplicação: npm install --save-dev istanbul
+
+12:codigo fonte : https://github.com/devpleno/fsm-projeto-testes.git
