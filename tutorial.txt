@@ -10,4 +10,10 @@
 
 6:em juros.test.js importar juros.js e chamar o test()
 
-7:
+7: criar em src files.js passar uma função readdir com uma new Promise e um callback fs.readdir 
+
+8:Criar em test files.test.js importar files.js 
+
+9: instalar o sinon pois ele simula objetos fake : npm install ---save-dev sinon
+
+10: add ao test sinon.stub pois ele é muito importante pois só atrves dele conseguimos testar unitariante o codigo sem de fato rodar ele
